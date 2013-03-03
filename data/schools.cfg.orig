@@ -1,0 +1,42 @@
+[
+	{
+		resource: "Mana",
+		red: 0.92,
+		green: 0.82,
+		blue: 0.92
+	},
+	{
+		resource: "Gold",
+		red: 0.7,
+		green: 0.7,
+		blue: 0.2,
+	},
+	{
+		resource: "Blood",
+<<<<<<< Updated upstream
+		red: 0.2,
+=======
+		red: 0.255,
+>>>>>>> Stashed changes
+		green: 0.0,
+		blue: 0.0,
+	},
+	{
+		resource: "Food",
+		red: 0.0,
+		green: 1.0,
+		blue: 0.0,
+	},
+	{
+		resource: "Scrolls",
+		red: 0.839,
+		green: 0.957,
+		blue: 1.0,
+	},
+	{
+		resource: "Faith",
+		red: 0.5,
+		green: 0.5,
+		blue: 1.0,
+	},
+]
