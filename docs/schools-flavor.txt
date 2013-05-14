@@ -1,0 +1,128 @@
+﻿Blood
+
+Primary
+1. Life Drain
+2. Benefits from creatures dying
+3. Reanimating the dead
+4. Removing life
+5. Poisoned
+6. Transforming creatures
+7. Destroying creatures
+
+
+Secondary
+1. Flying
+2. Converting creatures into mana (only if the creatures are dying)
+3. Converting creatures into cards (only if the creatures are dying)
+4. Creature bonuses (static bonuses from other creatures)
+
+
+Bad at
+1. Directly removing wounds
+2. Ranged attacks
+3. Resistance
+
+----------
+
+Faith
+
+Primary
+1. Removing wounds
+2. Adding life
+3. First Strike
+4. Cover
+5. Flying
+6. Charge
+7. Reducing attack
+8. Adding exhaust
+
+
+Secondary
+1. Benefits from creatures dying (only their own creatures)
+2. Regeneration (spells give Regeneration)
+3. Creature bonuses (static bonuses from buildings)
+
+
+Bad at
+1. Directly adding wounds
+2. Trample
+3. Massive creatures
+4. Creatures that grow
+
+---------
+
+Food
+
+Primary
+1. Massive creatures
+2. Regeneration
+3. Trample
+4. Haste
+5. Marauder
+6. Creatures that grow
+7. Fighting constructs
+8. Converting creatures into wounds
+9. Summoning multiple creatures at once
+10. Removing exhaust
+11. Creature bonuses (in large, temporary bursts; response)
+
+
+Secondary
+1. Cover (spells give Cover)
+2. Poisoned (creatures give Poisoned to others)
+3. Removing wounds (creatures remove their own wounds)
+
+
+Bad at
+1. Ranged attacks
+2. First strike
+3. Direct damage from spells
+4. Buildings
+5. Drawing cards
+
+----------
+
+Gold
+
+Primary
+1. Resistance
+2. Ranged attacks
+3. Converting creatures into mana
+4. Altering summoning locations
+5. Indestructible
+6. Buildings
+7. Constant mana boosts
+8. Creature bonuses (moderate, permanent bonuses with an equipment flavor)
+
+
+Secondary
+1. Moving creatures (only friendly creatures)
+2. Adding life (only constructs)
+3. Removing wounds (only constructs)
+4. Trample
+
+
+Bad at
+1. Flying
+2. Drawing cards
+
+----------
+
+Scrolls
+
+Primary
+1. Drawing cards
+2. Deck and hand manipulation
+3. Moving creatures
+4. Directly adding wounds
+5. Converting creatures into cards
+6. Transforming creatures
+
+
+Secondary
+1. Removing wounds (creatures remove their own wounds)
+2. Creature bonuses (transformation and evolution)
+
+
+Bad at
+1. Combat abilities
