@@ -11,6 +11,15 @@ my $NumBots = 256;
 #my $DataDir = $ENV{"HOME"} . "./modules/citadel/evo/";
 my $DataDir = "./modules/citadel/evo/";
 
+my $exename = './game';
+while(my $arg = shift @ARGV) {
+	if($arg eq '--exename') {
+		$exename = shift @ARGV or die "could not find exename after --exename";
+	} else {
+		die "unrecognized argument $arg";
+	}
+}
+
 my @BotSegments = (
 	{begin => 0, end => 127, school => 'food',
 	 wins => 0, losses => 0, total_wins => 0, total_losses => 0},
@@ -104,7 +113,7 @@ for(my $niteration = 0; ; ++$niteration) {
 			if($child_pid == 0) {
 				my $fnamea = 'evo/evolution' . $bota . '.cfg';
 				my $fnameb = 'evo/evolution' . $botb . '.cfg';
-				my @command = ('./game', '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner=1', '--module=citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnameb'}, session_id: 2}]}");
+				my @command = ($exename, '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner=1', '--module=citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnameb'}, session_id: 2}]}");
 
 				open STDOUT, ">command-$ncommand" or die "$!";
 
