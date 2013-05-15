@@ -1,0 +1,22 @@
+Note that this is all just wild thinking and not anywhere close to being set in stone.
+
+Order:
+1. Gold
+2. Blood
+3. Food
+4. Scrolls
+5. Faith
+
+Allies:
+1. Faith and Gold
+2. Gold and Blood
+3. Blood and Food
+4. Food and Scrolls
+5. Scrolls and Faith
+
+Enemies:
+1. Faith and Blood
+2. Gold and Food
+3. Blood and Scrolls
+4. Faith and Food
+5. Gold and Scrolls
