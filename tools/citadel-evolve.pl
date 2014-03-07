@@ -8,17 +8,20 @@ use IO::Select;
 use POSIX ":sys_wait_h";
 
 my $NumBots = 256;
-#my $DataDir = $ENV{"HOME"} . "./modules/citadel/evo/";
-my $DataDir = "./modules/citadel/evo/";
+my $ModuleName = 'citadel';
 
 my $exename = './anura';
 while(my $arg = shift @ARGV) {
 	if($arg eq '--exename') {
 		$exename = shift @ARGV or die "could not find exename after --exename";
+	} elsif($arg eq '--module') {
+		$ModuleName = shift @ARGV or die "Could not find modulename after --module";
 	} else {
 		die "unrecognized argument $arg";
 	}
 }
+
+my $DataDir = "./modules/$ModuleName/evo/";
 
 my @BotSegments = (
 	{begin => 0, end => 127, school => 'food',
@@ -65,7 +68,7 @@ for(my $niteration = 0; ; ++$niteration) {
 
 	foreach my $school (('food', 'faith', 'blood')) {
 		my @valid_cards = ();
-		open CARDS, "<modules/citadel/data/cards-$school.cfg" or die "$!";
+		open CARDS, "<modules/$ModuleName/data/cards-$school.cfg" or die "$!";
 		while(my $line = <CARDS>) {
 			chomp $line;
 			if($line =~ /^\s+"[^"]+": \{\s*$/) {
@@ -88,8 +91,8 @@ for(my $niteration = 0; ; ++$niteration) {
 	my $start_iteration = time;
 
 	my $retire_iter = $niteration+1;
-	while(-d "$DataDir/retired$retire_iter") {
-		++$retire_iter;
+	while($retire_iter%50 == 0 and (-d "$DataDir/retired$retire_iter")) {
+		$retire_iter += 50;
 	}
 
 	my $NumThreads = 4;
@@ -113,7 +116,7 @@ for(my $niteration = 0; ; ++$niteration) {
 			if($child_pid == 0) {
 				my $fnamea = 'evo/evolution' . $bota . '.cfg';
 				my $fnameb = 'evo/evolution' . $botb . '.cfg';
-				my @command = ($exename, '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', '--module=citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnameb'}, session_id: 2}]}");
+				my @command = ($exename, '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', "--module=$ModuleName", '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary', args: {rules: '$fnameb'}, session_id: 2}]}");
 
 				open STDOUT, ">command-$ncommand" or die "$!";
 
@@ -514,6 +517,24 @@ for(my $niteration = 0; ; ++$niteration) {
 			}
 			close LOSER;
 		}
+	}
+
+	if($retire_iter%50 == 0) {
+		my @compares = (50, 200, 1000);
+		print "Running ancestral comparisons $retire_iter\n";
+		foreach my $cmp (@compares) {
+			my $ancestor = $retire_iter - $cmp;
+
+			my $dira ="$DataDir/retired$retire_iter";
+			my $dirb = "$DataDir/retired/$ancestor";
+
+			if((-d $dira) and (-d $dirb)) {
+				print "Running comparison: $dira vs $dirb...\n";
+				system("perl modules/citadel/tools/evolutionary-challenge.pl $dira $dirb");
+				system("perl modules/citadel/tools/evolutionary-challenge.pl $dirb $dira");
+			}
+		}
+		print "Done running ancestral comparisons $retire_iter\n";
 	}
 
 	#system("killall -9 game");
