@@ -11,7 +11,7 @@ my $NumBots = 256;
 #my $DataDir = $ENV{"HOME"} . "./modules/citadel/evo/";
 my $DataDir = "./modules/citadel/evo/";
 
-my $exename = './game';
+my $exename = './anura';
 while(my $arg = shift @ARGV) {
 	if($arg eq '--exename') {
 		$exename = shift @ARGV or die "could not find exename after --exename";
@@ -113,7 +113,7 @@ for(my $niteration = 0; ; ++$niteration) {
 			if($child_pid == 0) {
 				my $fnamea = 'evo/evolution' . $bota . '.cfg';
 				my $fnameb = 'evo/evolution' . $botb . '.cfg';
-				my @command = ($exename, '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner=1', '--module=citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnameb'}, session_id: 2}]}");
+				my @command = ($exename, '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', '--module=citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary2', args: {rules: '$fnameb'}, session_id: 2}]}");
 
 				open STDOUT, ">command-$ncommand" or die "$!";
 
@@ -326,7 +326,7 @@ for(my $niteration = 0; ; ++$niteration) {
 			} elsif(my ($pattern) = $line =~ /"(.*)": -?[0-9]+/) {
 				chomp $line;
 				my ($key, $value) = $line =~ /(.*".*": ?)(-?[0-9]+)/ or die "DIE: $line: $!";
-				print STDERR "MUTATE: $pattern\n" if $used_patterns{$pattern};
+				print STDERR "DID MUTATE: $pattern\n" if $used_patterns{$pattern};
 				print STDERR "DID NOT MUTATE: ($pattern)\n" unless $used_patterns{$pattern};
 				$value += int(rand(100)-50) if $used_patterns{$pattern} and $pattern !~ /EVAL /;
 
