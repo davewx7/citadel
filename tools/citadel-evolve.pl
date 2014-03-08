@@ -526,7 +526,7 @@ for(my $niteration = 0; ; ++$niteration) {
 			my $ancestor = $retire_iter - $cmp;
 
 			my $dira ="$DataDir/retired$retire_iter";
-			my $dirb = "$DataDir/retired/$ancestor";
+			my $dirb = "$DataDir/retired$ancestor";
 
 			if((-d $dira) and (-d $dirb)) {
 				print "Running comparison: $dira vs $dirb...\n";
