@@ -116,7 +116,7 @@ for(my $niteration = 0; ; ++$niteration) {
 			if($child_pid == 0) {
 				my $fnamea = 'evo/evolution' . $bota . '.cfg';
 				my $fnameb = 'evo/evolution' . $botb . '.cfg';
-				my @command = ($exename, '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', "--module=$ModuleName", '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary', args: {rules: '$fnameb'}, session_id: 2}]}");
+				my @command = ($exename, '--write-backed-maps', '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', "--module=$ModuleName", '--tbs-server', '--utility=tbs_bot_game', '--request', "{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary', args: {rules: '$fnamea'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary', args: {rules: '$fnameb'}, session_id: 2}]}");
 
 				open STDOUT, ">command-$ncommand" or die "$!";
 
