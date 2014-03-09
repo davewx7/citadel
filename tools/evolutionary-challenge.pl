@@ -9,7 +9,7 @@ while(my $arg = shift @ARGV) {
 		$NumGames = shift @ARGV;
 	} else {
 		push @bots, $arg;
-		push @dirs, 'modules/citadel/evo/' . $arg;
+		push @dirs, 'modules/Citadel/evo/' . $arg;
 	}
 }
 
@@ -49,7 +49,7 @@ for(my $n = 0; $n < $NumGames; ++$n) {
 	my $bot_a = $bots_a[int(rand($#bots_a))];
 	my $bot_b = $bots_b[int(rand($#bots_b))];
 
-	my @command = ('./anura', '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', '--module=citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "\"{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary', args: {rules: '$bot_a'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary', args: {rules: '$bot_b'}, session_id: 2}]}\"");
+	my @command = ('./anura', '--tbs_server_delay_ms=1', '--tbs_server_heartbeat_freq=1', '--tbs_bot_delay_ms=1', '--tbs_game_exit_on_winner', '--module=Citadel', '--tbs-server', '--utility=tbs_bot_game', '--request', "\"{type: 'create_game', game_type: 'citadel', users: [{user: 'a', bot: true, bot_type: 'evolutionary', args: {rules: '$bot_a'}, session_id: 1}, {user: 'b', bot: true, bot_type: 'evolutionary', args: {rules: '$bot_b'}, session_id: 2}]}\"");
 
 	my $command = join ' ', @command;
 	$command .= " > /tmp/result.$$";
