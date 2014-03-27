@@ -1,8 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="409pt" height="409pt" viewBox="0 0 409 409" version="1.1">
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.901961%,92.54902%,89.411765%);fill-opacity:1;" d="M 408.660156 204.5 C 408.660156 317.253906 317.253906 408.660156 204.5 408.660156 C 91.746094 408.660156 0.339844 317.253906 0.339844 204.5 C 0.339844 91.746094 91.746094 0.339844 204.5 0.339844 C 317.253906 0.339844 408.660156 91.746094 408.660156 204.5 Z "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(20%,20%,20%);fill-opacity:1;" d="M 204.117188 360.730469 L 167.179688 238.753906 L 39.75 241.308594 L 144.34375 168.5 L 102.546875 48.144531 L 204.117188 125.085938 L 305.683594 48.144531 L 263.890625 168.542969 L 368.484375 241.351562 L 241.054688 238.796875 Z M 159.46875 160.617188 L 204.628906 246.125 L 249.789062 160.617188 Z "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(46.666667%,44.705882%,40.392157%);fill-opacity:1;" d="M 173.058594 168.285156 L 204.628906 228.144531 L 236.199219 168.285156 Z "/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="Color">
+	<g>
+		<circle fill="#F2ECE4" cx="256" cy="256" r="256"/>
+		<path fill="#333333" d="M255.5,499.3L204,329.1l-177.7,3.6l145.9-101.6L113.8,63.2l141.7,107.4L397.2,63.2l-58.3,167.9
+			l145.9,101.6l-177.7-3.6L255.5,499.3z M193.3,223l63,119.3l63-119.3H193.3z"/>
+		<polygon fill="#777267" points="225.4,244 256.2,302.4 287,244 		"/>
+	</g>
+</g>
+<g id="BW" display="none">
+	<g display="inline">
+		<path d="M349.1,200l65.1-187.5L256,132.4L97.8,12.5L162.9,200L0,313.5l198.5-4l57.5,190l57.5-190l198.5,4L349.1,200z M256.8,316.2
+			L186.5,183h140.6L256.8,316.2z"/>
+		<polygon points="256.8,277.3 297,201 216.5,201 		"/>
+	</g>
 </g>
 </svg>
