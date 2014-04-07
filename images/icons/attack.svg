@@ -1,19 +1,18 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-
-<g transform="matrix(18.68858,0,0,18.68858,5157.94768,-9227.02888)">
-<g transform="matrix(.92829,.92829,.92829,-.92829,-1175.7784,529.77929)">
-<path d="m 477.882 498.132 c 0 6.8988 0.0652 13.1242 1.9305 19.6863 1.9437 -6.3312 1.7374 -12.7162 1.7374 -19.518" fill="#990" fill-rule="evenodd"/>
-<path d="m 479.719 510.088 -1e-05 -12.6103" fill="#990" fill-rule="evenodd" stroke="#000" stroke-width=".7617"/>
-<path d="m 474.998 497.573 h 9.4408 v 1.6439 c -3.1061 -0.8312 -6.3458 -1.0083 -9.4408 0 v -1.6439 z" fill="#990"/>
-<path d="m 478.91 491.524 h 1.6175 c -0.4295 2.0932 -0.478 4.1865 0 6.2797 h -1.6175 c 0.5704 -2.0932 0.4481 -4.1865 0 -6.2797 z" fill="#990"/>
-</g>
-<g transform="matrix(-.92829,.92829,-.92829,-.92829,651.15308,529.77929)">
-<path d="m 477.882 498.132 c 0 6.8988 0.0652 13.1242 1.9305 19.6863 1.9437 -6.3312 1.7374 -12.7162 1.7374 -19.518" fill="#990" fill-rule="evenodd"/>
-<path d="m 479.719 510.088 -1e-05 -12.6103" fill="#990" fill-rule="evenodd" stroke="#000" stroke-width=".7617"/>
-<path d="m 474.998 497.573 h 9.4408 v 1.6439 c -3.1061 -0.8312 -6.3458 -1.0083 -9.4408 0 v -1.6439 z" fill="#990"/>
-<path d="m 478.91 491.524 h 1.6175 c -0.4295 2.0932 -0.478 4.1865 0 6.2797 h -1.6175 c 0.5704 -2.0932 0.4481 -4.1865 0 -6.2797 z" fill="#990"/>
-</g>
-<path d="m -266.639 506.612 4.7031 4.8594" fill="none" stroke="#000"/>
-<path d="m -262.685 502.753 4.9844 4.7031" fill="none" stroke="#000"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<polygon fill="#F3F3F1" points="285.5,324.2 102.6,141.7 96.6,93.1 145.3,99.2 328.1,281.6 358,251.8 105.7,0.2 0,0 0,102.3 
+				255.5,354 			"/>
+			
+				<rect x="397.5" y="378" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -182.3855 438.8955)" fill="#F3F3F1" width="82.1" height="123.2"/>
+			
+				<rect x="228.4" y="332" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -146.3137 351.8105)" fill="#F3F3F1" width="246.3" height="41.1"/>
+		</g>
+	</g>
 </g>
 </svg>
