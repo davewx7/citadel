@@ -530,8 +530,8 @@ for(my $niteration = 0; ; ++$niteration) {
 
 			if((-d $dira) and (-d $dirb)) {
 				print "Running comparison: $dira vs $dirb...\n";
-				system("perl modules/citadel/tools/evolutionary-challenge.pl $dira $dirb");
-				system("perl modules/citadel/tools/evolutionary-challenge.pl $dirb $dira");
+				system("perl modules/Citadel/tools/evolutionary-challenge.pl retired$retire_iter retired$ancestor");
+				system("perl modules/Citadel/tools/evolutionary-challenge.pl retired$ancestor retired$retire_iter");
 			}
 		}
 		print "Done running ancestral comparisons $retire_iter\n";
