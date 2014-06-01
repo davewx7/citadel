@@ -24,7 +24,9 @@ while(my $arg = shift @ARGV) {
 my $DataDir = "./modules/$ModuleName/evo/";
 
 my @BotSegments = (
-	{begin => 0, end => 127, school => 'food',
+	{begin => 0, end => 64, school => 'food',
+	 wins => 0, losses => 0, total_wins => 0, total_losses => 0},
+	{begin => 65, end => 127, school => 'gold',
 	 wins => 0, losses => 0, total_wins => 0, total_losses => 0},
 	{begin => 128, end => 191, school => 'faith',
 	 wins => 0, losses => 0, total_wins => 0, total_losses => 0},
