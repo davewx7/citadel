@@ -14,6 +14,6 @@
 	<path opacity="0.9" fill="#02A676" d="M241.2,442.6v-64.8c0-13.7,11.1-24.9,24.9-24.9h0.5c13.8,0,25,11.2,25,25v64.7H241.2z"/>
 	<rect x="69.5" y="466" fill="none" width="393.7" height="22.6"/>
 	
-		<text transform="matrix(1 0 0 1 145.7398 481.5713)" fill="#02A676" font-family="'CharlemagneStd-Bold'" font-size="22.1808" letter-spacing="22">CITADEL</text>
+		<text transform="matrix(1 0 0 1 145.7398 481.5713)" fill="#02A676" font-family="'LibreBaskerville-Bold'" font-size="22.1808" letter-spacing="22">CITADEL</text>
 </g>
 </svg>
