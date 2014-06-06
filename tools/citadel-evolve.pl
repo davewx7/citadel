@@ -253,9 +253,11 @@ for(my $niteration = 0; ; ++$niteration) {
 			push @winners, $winner;
 			last if &in_same_segment($winner, $loser);
 
-			die if $ncount > scalar(@winners);
+			last if $ncount > scalar(@winners);
 			++$ncount;
 		}
+
+		next if $ncount > scalar(@winners);
 
 		my $fname_winner = "$DataDir/evolution" . $winner . '.cfg';
 		my $fname_loser = "$DataDir/evolution" . $loser . '.cfg';
@@ -271,8 +273,10 @@ for(my $niteration = 0; ; ++$niteration) {
 		my %used_patterns = ();
 		my $ntotal_patterns = 0;
 		my $nused_patterns = 0;
+		my $found_stats = 1;
 
-		open WINNER_STATS, "<$fname_winner.stats" or die "DIE: $!";
+		open WINNER_STATS, "<$fname_winner.stats" or ($found_stats = 0);
+		if($found_stats) {
 		while(my $line = <WINNER_STATS>) {
 			if(my ($pattern) = $line =~ /"([^"]+)": \{/) {
 				++$ntotal_patterns;
@@ -287,8 +291,8 @@ for(my $niteration = 0; ; ++$niteration) {
 				}
 			}
 		}
-
 		close WINNER_STATS;
+		}
 
 		print "BOT USED $nused_patterns/$ntotal_patterns PATTERNS\n";
 
