@@ -3,42 +3,42 @@
 [Setup]
 AppName=Citadel
 AppVersion=0.1.alpha
-DefaultDirName={userappdata}\CitadelBuild
+DefaultDirName={localappdata}\CitadelBuild
 DefaultGroupName=Citadel
-UninstallDisplayIcon={userappdata}\CitadelBuild\anura.exe
+UninstallDisplayIcon={localappdata}\CitadelBuild\anura.exe
 Compression=lzma2
 SolidCompression=yes
 OutputDir=c:\projects\
 DisableDirPage=yes
 
 [Files]
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\*.*"; DestDir: "{userappdata}\CitadelBuild"; Excludes: "*.pdb,.*,std*.*";
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\data\*.*"; DestDir: "{userappdata}\CitadelBuild\data"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\images\*.*"; DestDir: "{userappdata}\CitadelBuild\images"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\vcredist_x86_2012.exe"; DestDir: "{userappdata}\CitadelBuild"; Flags: deleteafterinstall
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\*.*"; DestDir: "{localappdata}\CitadelBuild"; Excludes: "*.pdb,.*,std*.*,*.bat";
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\data\*.*"; DestDir: "{localappdata}\CitadelBuild\data"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\images\*.*"; DestDir: "{localappdata}\CitadelBuild\images"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\vcredist_x86_2012.exe"; DestDir: "{localappdata}\CitadelBuild"; Flags: deleteafterinstall
 
 ; This is everything which is not nescessarily whats wanted
 ; Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\anura-master\*.*"; DestDir: "{app}\modules\anura-master"; Excludes: ".*"; Flags: recursesubdirs
 
 ; These are more selective.
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\*.cfg"; DestDir: "{userappdata}\CitadelBuild\modules\Citadel"; Excludes: ".*,evo\*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\data\*.*"; DestDir: "{userappdata}\CitadelBuild\modules\Citadel\data"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\images\*.*"; DestDir: "{userappdata}\CitadelBuild\modules\Citadel\images"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\*.cfg"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel"; Excludes: ".*,evo\*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\data\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel\data"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\images\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel\images"; Excludes: ".*"; Flags: recursesubdirs
 ;Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\locale\*.*"; DestDir: "{app}\modules\Citadel\locale"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\sounds\*.*"; DestDir: "{userappdata}\CitadelBuild\modules\Citadel\sounds"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\sounds\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel\sounds"; Excludes: ".*"; Flags: recursesubdirs
 ;Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\music\*.*"; DestDir: "{app}\modules\Citadel\music"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\lib_2d\*.*"; DestDir: "{userappdata}\CitadelBuild\modules\lib_2d"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\icons\*.*"; DestDir: "{userappdata}\CitadelBuild\modules\icons"; Excludes: ".*"; Flags: recursesubdirs
-Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\master-config.cfg"; DestDir: "{userappdata}\CitadelBuild"
-; We should add manifest.cfg here.
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\lib_2d\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\lib_2d"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\icons\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\icons"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\master-config.cfg"; DestDir: "{localappdata}\CitadelBuild"
+;Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\manifest.cfg"; DestDir: "{localappdata}\CitadelBuild"
 
 
 [Icons]
-Name: "{group}\Citadel"; Filename: "{userappdata}\CitadelBuild\anura.exe"
+Name: "{group}\Citadel"; Filename: "{localappdata}\CitadelBuild\anura.exe"
 Name: "{group}\Uninstall Citadel"; Filename: "{uninstallexe}"
 
 [Run]
-Filename: "{userappdata}\CitadelBuild\vcredist_x86_2012.exe"; Parameters: "/q"
+Filename: "{localappdata}\CitadelBuild\vcredist_x86_2012.exe"; Parameters: "/q"; StatusMsg: "Installing Redistributables... (This may take a while)"
 
 [Languages]
 Name: "en"; MessagesFile: "compiler:Default.isl"
