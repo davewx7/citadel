@@ -21,6 +21,8 @@ core
 core.*
 *.exe
 *.d
+*CoreMellow*
+*retired*
 compiled-*
 tiles-compiled-*
 
