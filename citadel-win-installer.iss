@@ -15,6 +15,7 @@ DisableDirPage=yes
 Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\*.*"; DestDir: "{localappdata}\CitadelBuild"; Excludes: "*.pdb,.*,std*.*,*.bat";
 Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\data\*.*"; DestDir: "{localappdata}\CitadelBuild\data"; Excludes: ".*"; Flags: recursesubdirs
 Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\images\*.*"; DestDir: "{localappdata}\CitadelBuild\images"; Excludes: ".*"; Flags: recursesubdirs
+Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\update\*.*"; DestDir: "{localappdata}\CitadelBuild\update"; Excludes: ".*"; Flags: recursesubdirs
 Source: "C:\Projects\vcredist_x86_2012.exe"; DestDir: "{localappdata}\CitadelBuild"; Flags: deleteafterinstall
 
 ; This is everything which is not nescessarily whats wanted
