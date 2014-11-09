@@ -22,6 +22,7 @@ Source: "C:\Projects\vcredist_x86_2012.exe"; DestDir: "{localappdata}\CitadelBui
 ; Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\anura-master\*.*"; DestDir: "{app}\modules\anura-master"; Excludes: ".*"; Flags: recursesubdirs
 
 ; These are more selective.
+Source: "C:\Projects\anura_master\update\*.*"; DestDir: "{localappdata}\CitadelBuild\update"; Excludes: ".*"; Flags: recursesubdirs
 Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\*.cfg"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel"; Excludes: ".*,evo\*"; Flags: recursesubdirs
 Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\data\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel\data"; Excludes: ".*"; Flags: recursesubdirs
 Source: "C:\Projects\anura_master\vs2012\anura\Release\Win32\modules\Citadel\images\*.*"; DestDir: "{localappdata}\CitadelBuild\modules\Citadel\images"; Excludes: ".*"; Flags: recursesubdirs
