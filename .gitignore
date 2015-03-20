@@ -2,6 +2,7 @@
 *-deck.cfg
 data/starting-creatures.cfg
 data/player-deck-*.cfg
+data/citadel-fonts.cfg
 *.pdn
 
 *~
