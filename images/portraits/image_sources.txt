@@ -9,6 +9,10 @@ Original work of Kewal Gyan, cropped. CC-By-SA 3.0, Wikimedia commons: http://en
 Wikimedia commons, original pen ink & watercolor on paper from 17th century in Museo Correr in Venice. Converted to png and cropped.
 http://commons.wikimedia.org/wiki/File:Jan_van_Grevenbroeck,_Venetian_doctor_during_the_time_of_the_plague._Museo_Correr,_Venice.jpg
 
+"traced_kukri.png"
+Wikimedia commons, original photograph of anonymous. CC-BY-SA 4.0. Used trace-bitmap in inkscape and cropped it.
+http://en.wikipedia.org/wiki/Kukri#/media/File:Polished_kukri.jpg
+
 "traced_pyre_zombie.png":
 Modified a photograph of Ted Batchelor which turned up in Google image search for "stuntman on fire", with the usage restrictions set to maximum.
 The photograph was modified by using the trace-bitmap feature of inkscape and cropping it. Ted Batchelor is described at this site:
