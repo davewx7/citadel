@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 664 1024" enable-background="new 0 0 664 1024" xml:space="preserve">
-<g>
-	<g>
-		<g>
-			<g>
-				<polygon opacity="0.4" fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="339,436.3 270.4,317.6 
-					339,198.8 476.2,198.8 544.7,317.6 476.2,436.3 				"/>
-				<polygon opacity="0.5" fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="202,674 133.5,555.2 
-					202,436.5 339.2,436.5 407.7,555.2 339.2,674 				"/>
-			</g>
-			<polygon opacity="0.15" fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="270.3,555.5 201.7,436.7 
-				270.3,318 407.4,318 476,436.7 407.4,555.5 			"/>
-			<polygon opacity="0.25" fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="284.5,530.9 230.1,436.7 
-				284.5,342.6 393.2,342.6 447.6,436.7 393.2,530.9 			"/>
-			<polygon opacity="0.5" fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="298.2,507.1 257.6,436.7 
-				298.2,366.3 379.5,366.3 420.1,436.7 379.5,507.1 			"/>
-			<polygon opacity="0.75" fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="310.6,485.7 282.3,436.7 
-				310.6,387.7 367.1,387.7 395.4,436.7 367.1,485.7 			"/>
-			<polygon fill="none" stroke="#F2F3F0" stroke-width="2" stroke-miterlimit="10" points="320.4,468.8 301.9,436.7 320.4,404.7 
-				357.3,404.7 375.8,436.7 357.3,468.8 			"/>
-		</g>
-
-		<text transform="matrix(1 0 0 1 156.7388 759.4965)"><tspan x="0" y="0" fill="#F2F3F0" font-family="'CoreMellow15','LibreBaskerville-Bold'" font-size="65.6716" letter-spacing="13">argentum</tspan><tspan x="232.2" y="78.8" fill="#F2F3F0" font-family="'CoreMellow15','LibreBaskerville-Bold'" font-size="65.6716" letter-spacing="13">age</tspan></text>
-
-
-	</g>
-</g>
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<polygon fill="#F2F3F0" points="380.5,232.8 256,304.7 131.5,232.8 131.5,89 256,17.1 380.5,89 "/>
+<text transform="matrix(1 0 0 1 177.8976 208.7919)" fill="#BE4935" font-family="'CoreMellow25'" font-size="203.8712">a</text>
+<text transform="matrix(1 0 0 1 238.2863 208.7919)" fill="#BE4935" font-family="'CoreMellow25'" font-size="203.8712">a</text>
 </svg>
