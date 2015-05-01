@@ -5,6 +5,9 @@ Url: https://seewithin.files.wordpress.com/2011/02/hanged-man2.jpg
 Image was traced in inkscape and cropped.
 Possibly not legitimate to distribute...
 
+"Lightning_tower.png"
+Public domain image, wikimedia commons. http://simple.wikipedia.org/wiki/Lightning#/media/File:Lightning_striking_the_Eiffel_Tower_-_NOAA_edit.jpg
+
 "loading-a-catapult.png":
 Public domain image from http://www.spriteswf.com/
 From a 1903 book "The Crossbow" by  Sir Ralph Payne-Gallwey.
