@@ -5,9 +5,13 @@ Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 "blessing-of-endurance.png"
 "blessed-lance.png"
 "blessing-of-endurance.png"
+"curse.png"
+"deathly-arrow.png"
 "divine-restoration.png"
 "eye-for-an-eye.png"
+"festering-wound.png"
 "inquisition.png"
+"nether-word.png"
 "silence.png"
 "toughness.png"
 "weakness.png"
@@ -28,13 +32,6 @@ me AT jwbjerk D0T com"
 
 "Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.jpg
-
-"hanged_man2.png"
-Image retrieved from a tarot blog, April 7, 2015: https://seewithin.wordpress.com/tag/the-hanged-man/
-Google image thought they were free to use. Blog says this about the images: "Images on this blog are from Tarot decks from all over the world. All of the art is by artists I truly admire and most of them are from decks I own. The images used on the main background are from The Druid Craft Tarot deck, which is a personal favourite."
-Url: https://seewithin.files.wordpress.com/2011/02/hanged-man2.jpg
-Image was traced in inkscape and cropped.
-Possibly not legitimate to distribute...
 
 "Lightning_tower.png"
 Public domain image, wikimedia commons. http://simple.wikipedia.org/wiki/Lightning#/media/File:Lightning_striking_the_Eiffel_Tower_-_NOAA_edit.jpg
