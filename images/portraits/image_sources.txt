@@ -2,18 +2,29 @@
 Cropped from CC-BY 3.0 image, open game art. http://opengameart.org/content/kujasa-the-beginning
 Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 
+"astral-walk.png"
 "blessing-of-endurance.png"
 "blessed-lance.png"
 "blessing-of-endurance.png"
+"blink.png"
+"chain-lightning.png"
+"counter-spell.png"
 "curse.png"
 "deathly-arrow.png"
 "divine-restoration.png"
+"ejis-cunning.png"
 "eye-for-an-eye.png"
 "festering-wound.png"
+"hail-storm.png"
 "inquisition.png"
+"mana-burn.png"
 "nether-word.png"
+"polymorph.png"
+"scry.png"
 "silence.png"
+"tactical-blunder.png"
 "toughness.png"
+"translocate.png"
 "weakness.png"
 CC-BY-SA 3.0, Open Game Art. http://opengameart.org/content/painterly-spell-icons
 J. W. Bjerk (eleazzaar)
