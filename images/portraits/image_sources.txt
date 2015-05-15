@@ -18,8 +18,8 @@ Public domain image, wikimedia commons. Cropped to AA ratio. http://commons.wiki
 "Ludwig_Richter_-_Crossing_at_Schreckenstein_-_Google_Art_Project.png":
 Public domain image, wikimedia commons. Cropped to AA ratio. http://commons.wikimedia.org/wiki/File:Ludwig_Richter_-_Crossing_at_Schreckenstein_-_Google_Art_Project.jpg
 
-"The Mosque of Aytmish al-Bagazi, Old Cairo - Adrian Ludwig Richter.png":
-Public domain image, wikimedia commons. Cropped to AA ratio.
+"Ludwig_Richter_-_The_Mosque_of_Aytmish_al_Bagazi_Old_Cairo.png":
+Public domain image. Recovered from a Christie's auction webpage. 'Painted in 1890.' Cropped to AA ratio. http://www.christies.com/lotfinder/paintings/bruno-richter-the-mosque-of-aytmish-al-bagazi-4974017-details.aspx
 
 "Mahavira_Enlightenment.png":
 Original work of Kewal Gyan, cropped. CC-By-SA 3.0, Wikimedia commons: http://en.wikipedia.org/wiki/Jain_meditation#/media/File:Mahavira_Enlightenment.jpg
