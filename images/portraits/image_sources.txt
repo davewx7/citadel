@@ -2,6 +2,30 @@
 Cropped from CC-BY 3.0 image, open game art. http://opengameart.org/content/kujasa-the-beginning
 Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 
+"blessing-of-endurance.png"
+"blessed-lance.png"
+"blessing-of-endurance.png"
+"divine-restoration.png"
+"eye-for-an-eye.png"
+"inquisition.png"
+"silence.png"
+"toughness.png"
+"weakness.png"
+CC-BY-SA 3.0, Open Game Art. http://opengameart.org/content/painterly-spell-icons
+J. W. Bjerk (eleazzaar)
+
+I resized them automatically using imagemagick scripts.
+
+"If you find these icons useful, I'd appreciate it if you send me a line, with a link to your project -- just to satisfy my curiosity.
+Also I can probably be commissioned to extend or expand this set at a reasonable rate.
+
+Enjoy...
+
+J.W.Bjerk
+me AT jwbjerk D0T com"
+
+
+
 "Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.jpg
 
