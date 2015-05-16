@@ -54,6 +54,9 @@ Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:C
 "Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/Category:Carl_Hasenpflug#/media/File:Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.jpeg
 
+"doomsday-crypt.png"
+CC-0 photograph, pixabay.com. http://pixabay.com/en/gothic-face-iron-gargoyle-mask-199733/
+
 "Lightning_tower.png"
 Public domain image, wikimedia commons. http://simple.wikipedia.org/wiki/Lightning#/media/File:Lightning_striking_the_Eiffel_Tower_-_NOAA_edit.jpg
 
