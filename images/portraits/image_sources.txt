@@ -3,12 +3,12 @@ Cropped from CC-BY 3.0 image, open game art. http://opengameart.org/content/kuja
 Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 
 "astral-walk.png"
-"blessing-of-endurance.png"
 "blessed-lance.png"
 "blessing-of-endurance.png"
 "blink.png"
 "chain-lightning.png"
 "counter-spell.png"
+"cover.png"
 "curse.png"
 "deathly-arrow.png"
 "divine-restoration.png"
@@ -19,6 +19,7 @@ Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 "inquisition.png"
 "mana-burn.png"
 "nether-word.png"
+"oldrics-trap.png"
 "polymorph.png"
 "scry.png"
 "silence.png"
