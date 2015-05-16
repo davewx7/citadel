@@ -21,6 +21,7 @@ Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 "nether-word.png"
 "oldrics-trap.png"
 "polymorph.png"
+"rain-of-steel.png"
 "scry.png"
 "silence.png"
 "tactical-blunder.png"
@@ -41,9 +42,20 @@ J.W.Bjerk
 me AT jwbjerk D0T com"
 
 
+"Adolf_Menzel_-_-Armor_Chamber_Fantasy-,_1866_-_Google_Art_Project.png"
+Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Adolf_Menzel_-_%22Armor_Chamber_Fantasy%22,_1866_-_Google_Art_Project.jpg
+
+"Anton_Karinger_-_Zvezdarna_v_Padovi.png"
+Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Anton_Karinger_-_Zvezdarna_v_Padovi.jpg
 
 "Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.jpg
+
+"Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.png"
+Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/Category:Carl_Hasenpflug#/media/File:Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.jpeg
+
+"doomsday-crypt.png"
+CC-0 photograph, pixabay.com. http://pixabay.com/en/gothic-face-iron-gargoyle-mask-199733/
 
 "Lightning_tower.png"
 Public domain image, wikimedia commons. http://simple.wikipedia.org/wiki/Lightning#/media/File:Lightning_striking_the_Eiffel_Tower_-_NOAA_edit.jpg
