@@ -1,0 +1,8 @@
+map(args,
+[
+	db.read_modify_write('user:' + value,
+	   def(any info) ->any
+	       if(info != null,
+		     info + {info: account + {privileged: true}} where account = info.info)
+	)
+])
