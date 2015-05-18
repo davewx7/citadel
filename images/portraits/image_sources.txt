@@ -3,6 +3,7 @@ Cropped from CC-BY 3.0 image, open game art. http://opengameart.org/content/kuja
 Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 
 "astral-walk.png"
+"battlecry.png"
 "blessed-lance.png"
 "blessing-of-endurance.png"
 "blink.png"
@@ -18,6 +19,7 @@ Attribute Sergei Churbanov, aka CatBlack, as the graphic artist.
 "hail-storm.png"
 "inquisition.png"
 "mana-burn.png"
+"mighty-gust.png"
 "nether-word.png"
 "oldrics-trap.png"
 "polymorph.png"
@@ -42,38 +44,38 @@ J.W.Bjerk
 me AT jwbjerk D0T com"
 
 
-"Adolf_Menzel_-_-Armor_Chamber_Fantasy-,_1866_-_Google_Art_Project.png"
+"armory.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Adolf_Menzel_-_%22Armor_Chamber_Fantasy%22,_1866_-_Google_Art_Project.jpg
 
-"Anton_Karinger_-_Zvezdarna_v_Padovi.png"
+"barracks.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Anton_Karinger_-_Zvezdarna_v_Padovi.jpg
 
-"Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.png"
+"sacred-refuge.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.jpg
 
-"Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.png"
+"shrine-of-the-martyr.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/Category:Carl_Hasenpflug#/media/File:Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.jpeg
 
 "doomsday-crypt.png"
 CC-0 photograph, pixabay.com. http://pixabay.com/en/gothic-face-iron-gargoyle-mask-199733/
 
-"Lightning_tower.png"
+"altar-of-storms.png"
 Public domain image, wikimedia commons. http://simple.wikipedia.org/wiki/Lightning#/media/File:Lightning_striking_the_Eiffel_Tower_-_NOAA_edit.jpg
 
 "loading-a-catapult.png":
 Public domain image from http://www.spriteswf.com/
 From a 1903 book "The Crossbow" by  Sir Ralph Payne-Gallwey.
 
-"Ludwig_Richter_-_Pool_in_the_Riesengebirge.png":
+"stygian-waters.png":
 Public domain image, wikimedia commons. Cropped to AA ratio. http://commons.wikimedia.org/wiki/File:Ludwig_Richter_-_Pool_in_the_Riesengebirge_-_WGA19455.jpg
 
-"Ludwig_Richter_-_Crossing_at_Schreckenstein_-_Google_Art_Project.png":
+"tactical-maneuver.png":
 Public domain image, wikimedia commons. Cropped to AA ratio. http://commons.wikimedia.org/wiki/File:Ludwig_Richter_-_Crossing_at_Schreckenstein_-_Google_Art_Project.jpg
 
-"Ludwig_Richter_-_The_Mosque_of_Aytmish_al_Bagazi_Old_Cairo.png":
+"bazaar.png":
 Public domain image. Recovered from a Christie's auction webpage. 'Painted in 1890.' Cropped to AA ratio. http://www.christies.com/lotfinder/paintings/bruno-richter-the-mosque-of-aytmish-al-bagazi-4974017-details.aspx
 
-"Mahavira_Enlightenment.png":
+"yogi.png":
 Original work of Kewal Gyan, cropped. CC-By-SA 3.0, Wikimedia commons: http://en.wikipedia.org/wiki/Jain_meditation#/media/File:Mahavira_Enlightenment.jpg
 
 "plague_doctor.png"
