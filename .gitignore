@@ -3,6 +3,8 @@
 data/starting-creatures.cfg
 data/player-deck-*.cfg
 data/citadel-fonts.cfg
+data/fonts/citadel-font.*
+data/fonts/CoreMellow*
 *.pdn
 
 *~
