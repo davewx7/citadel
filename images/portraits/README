@@ -1,0 +1,9 @@
+Our update mechanism publishes Argentum Age through a module system.
+This module system only handles files with certain characteristics in the filenames:
+
+Letters, numbers, hypthens, underscores, periods are allowed.
+No other characters are allowed. Spaces, commas, colons, etc are not allowed.
+
+Can we please ensure all checked in images and other files meet this criteria? I also recommend not using upper case in filenames.
+
+I recommend just giving images a name which correspond to the card they are used on. E.g. grave-stalker.png
