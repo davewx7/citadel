@@ -56,6 +56,9 @@ Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:C
 "shrine-of-the-martyr.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/Category:Carl_Hasenpflug#/media/File:Carl_Hasenpflug_-_Kirchenruine_im_Schnee_-1853.jpeg
 
+"dark-effigy.png",
+CC-BY-SA 2.0 photograph. cropped to AA ratio. https://www.flickr.com/photos/somemixedstuff/507715384/
+
 "doomsday-crypt.png"
 CC-0 photograph, pixabay.com. http://pixabay.com/en/gothic-face-iron-gargoyle-mask-199733/
 
