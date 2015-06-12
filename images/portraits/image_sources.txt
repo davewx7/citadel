@@ -94,3 +94,7 @@ Modified a photograph of Ted Batchelor which turned up in Google image search fo
 The photograph was modified by using the trace-bitmap feature of inkscape and cropping it. Ted Batchelor is described at this site:
 http://www.arfarfarf.com/burningman/ted.html
 I can't find a specific license for this image, so it might not be legitimate. It seems unlikely that Ted would be upset with us though.
+
+"kleptron.png":
+http://s1298.photobucket.com/user/Lutzburg/media/4e08e2b18a08f9d3732b1840b8509732_zpsfdca2f98.jpg.html
+CC-BY-SA 3.0 photobucket image, from "Lutzburg".
