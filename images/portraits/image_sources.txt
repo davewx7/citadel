@@ -50,6 +50,9 @@ Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:A
 "barracks.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Anton_Karinger_-_Zvezdarna_v_Padovi.jpg
 
+"rally_the_people.png"
+CC-2.0 photograph, cropped and recolored. wikimedia commons. https://commons.wikimedia.org/wiki/File:Angry_mob_of_four.jpg
+
 "sacred-refuge.png"
 Public Domain image, wikimedia commons. http://commons.wikimedia.org/wiki/File:Carl_Georg_Adolph_Hasenpflug_-_Blick_auf_die_Kirchenruine_im_Winter.jpg
 
