@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-<text transform="matrix(1 0 0 1 60.6648 387.302)" fill="#EEBD53" font-family="'CoreMellow15','LibreBaskerville-Bold'" font-size="509.882">a</text>
-<text transform="matrix(1 0 0 1 211.6979 387.302)" fill="#EEBD53" font-family="'CoreMellow15','LibreBaskerville-Bold'" font-size="509.882">a</text>
-<text transform="matrix(1 0 0 -1 60.6654 124.6982)" fill="#EEBD53" font-family="'CoreMellow15','LibreBaskerville-Bold'" font-size="509.882">a</text>
+<?xml version="1.0"?>
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse transform="rotate(10,286,201) " ry="152" rx="92" id="svg_4" cy="200" cx="285" stroke-width="1.5" stroke="#000000" fill="#88e031"/>
+  <ellipse transform="rotate(10,286,201) " ry="112" rx="62" id="svg_5" cy="200" cx="285" stroke-width="1.5" stroke="#000000" fill="#eebd53"/>
+ </g>
 </svg>
