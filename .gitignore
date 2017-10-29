@@ -3,3 +3,6 @@ Thumbs.db
 CoreMellow*.otf
 citadel-font.otf
 core-mellow.zip
+
+#   macOS.
+.DS_Store
