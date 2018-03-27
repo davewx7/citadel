@@ -6,3 +6,6 @@ core-mellow.zip
 
 #   macOS.
 .DS_Store
+
+#   Plasma stuff.
+.directory
