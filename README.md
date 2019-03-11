@@ -1,8 +1,33 @@
-Citadel
-=======
+# Argentum Age
 
-A turn based strategy game based on the Anura engine
+[<img src="http://argentumage.com/favicon-32.png" width="20"> Official website](https://argentumage.com) | [<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-twitter.svg" width="20"> Twitter](https://twitter.com/argentum_age) | [<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-reddit.svg" width="20"> Reddit](https://www.reddit.com/r/ArgentumAge/) | [<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg" width="20"> Facebook](https://www.facebook.com/ArgentLark) | [<img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" width="22"> Discord](https://discord.gg/0s6mSoZ1vJPlvcIw)
 
-For support, to meet the player community and find worthy opponents for multiplayer, drop by the Discord server 
-[![Discord Server Registration](https://img.shields.io/badge/discord-server_registration-green.svg?longCache=true&style=popout&logo=discord)](https://discord.gg/0s6mSoZ1vJPlvcIw)
-[![Discord Server](https://img.shields.io/badge/discord-server-blue.svg?longCache=true&style=popout&logo=discord)](https://discordapp.com/channels/156241487938584577/)
+An open source digital collectible card game (DCCG) based on the open source Anura engine.
+
+## Play the game
+
+The game is currently in closed beta on Steam. If you want to get access, join our Discord server and ask for a key.
+
+If you can't find any opponents in-game ask in our Discord channel. People are always hanging out there.
+
+## Screenshots
+
+<img src="http://argentumage.com/screenshots/screen-1.jpg" width="400">
+<img src="http://argentumage.com/screenshots/screen-2.jpg" width="400">
+<img src="http://argentumage.com/screenshots/screen-3.jpg" width="400">
+<img src="http://argentumage.com/screenshots/screen-4.jpg" width="400">
+
+## Get involved
+
+To get involved as a developer, check out this wiki page: [Getting started as a developer](https://github.com/davewx7/citadel/wiki/GettingStartedAsADeveloper).
+
+If you want to contribute some art, check out this page: [Argentum Age card art guidelines](https://github.com/davewx7/citadel/wiki/Argentum-Age-Card-Art-Guidelines).
+
+The game development is currently a bit stalled because we'll be transitioning from the Anura engine to Unity, but if you still want to contribute to current codebase we will be more than happy.
+
+## Useful links
+
+- [Anura engine GitHub](https://github.com/anura-engine/anura)
+- [Anura Engine Documentation](https://github.com/frogatto/frogatto/wiki)
+- [Frogatto & Friends GitHub](https://github.com/frogatto/frogatto)
+- [List of all cards](http://theargentlark.com/david/cards/all-cards.html)
