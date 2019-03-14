@@ -1,6 +1,14 @@
 # Argentum Age
 
-[<img src="http://argentumage.com/favicon-32.png" width="20"> Official website](https://argentumage.com) | [<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-twitter.svg" width="20"> Twitter](https://twitter.com/argentum_age) | [<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-reddit.svg" width="20"> Reddit](https://www.reddit.com/r/ArgentumAge/) | [<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg" width="20"> Facebook](https://www.facebook.com/ArgentLark) | [<img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" width="22"> Discord](https://discord.gg/0s6mSoZ1vJPlvcIw)
+[<img src="http://argentumage.com/favicon-32.png" width="20"> Official website](https://argentumage.com)
+|
+[<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-twitter.svg" width="20"> Twitter](https://twitter.com/argentum_age)
+|
+[<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-reddit.svg" width="20"> Reddit](https://www.reddit.com/r/ArgentumAge/)
+|
+[<img src="https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg" width="20"> Facebook](https://www.facebook.com/ArgentLark)
+|
+[<img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" width="22"> Discord](https://discord.gg/0s6mSoZ1vJPlvcIw)
 
 An open source digital collectible card game (DCCG) based on the open source Anura engine.
 
@@ -28,6 +36,5 @@ The game development is currently a bit stalled because we'll be transitioning f
 ## Useful links
 
 - [Anura engine GitHub](https://github.com/anura-engine/anura)
-- [Anura Engine Documentation](https://github.com/frogatto/frogatto/wiki)
-- [Frogatto & Friends GitHub](https://github.com/frogatto/frogatto)
-- [List of all cards](http://theargentlark.com/david/cards/all-cards.html)
+- [Anura engine Documentation (Frogatto)](https://github.com/frogatto/frogatto/wiki)
+- [Anura engine Documentation (Anura)](https://github.com/anura-engine/anura/wiki)
