@@ -35,6 +35,7 @@ The game development is currently a bit stalled because we'll be transitioning f
 
 ## Useful links
 
+- [Frogatto & Friends GitHub](https://github.com/frogatto/frogatto)
 - [Anura engine GitHub](https://github.com/anura-engine/anura)
 - [Anura engine Documentation (Frogatto)](https://github.com/frogatto/frogatto/wiki)
 - [Anura engine Documentation (Anura)](https://github.com/anura-engine/anura/wiki)
